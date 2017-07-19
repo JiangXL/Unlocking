@@ -17,3 +17,4 @@
 
 + [Shell 变量](http://www.runoob.com/linux/linux-shell-variable.html)
 + [While 循环](http://www.cnblogs.com/kangyoung/p/3556186.html)
++ [小数位数](http://radish.blog.51cto.com/5944322/1736900)

@@ -4,9 +4,9 @@ Kp，Ki和Kd三个参数的设定。PID控制器主要适用于基本上线性�
 ![PID](https://upload.wikimedia.org/wikipedia/commons/4/40/Pid-feedback-nct-int-correct.png)
 
 # 数学原理
-![PID控制输出](https://wikimedia.org/api/rest_v1/media/math/render/svg/6d0715de877e00cd15a9231f9182c17d9869ed1c)
+
 $$
-u(t)=MV(t)=K_{p}e(t)+K_{i}\int e(\tau)  
+u(t)=MV(t)=K_{p}e(t)+K_{i}\int_{0}^{t} e(\tau)d\tau + K_d \frac{d}{dt}e(t)
 $$
 
 其中
@@ -39,18 +39,14 @@ $$
 
 # 调参
 + **人工调参**：
-  若需在系统仍有负载的情形进行调试（线上调试），有一种作法是先将 {\displaystyle K_{i}}
-   K_{i}及 {\displaystyle K_{d}} K_{d}设为零，增加 {\displaystyle K_{p}} K_{p}一直
-   到回路输出震荡为止，之后再将 {\displaystyle K_{p}} K_{p}设定为“1/4振幅衰减”（使系
-   统第二次过冲量是第一次的1/4）增益的一半，然后增加 {\displaystyle K_{i}} K_{i}直到
-   一定时间后的稳态误差可被修正为止。不过若 {\displaystyle K_{i}} K_{i}可能会造成不稳
-   定，最后若有需要，可以增加 {\displaystyle K_{d}} K_{d}，并确认在负载变动后回路可以
-   够快的回到其设定值，不过若 {\displaystyle K_{d}} K_{d}太大会造成响应太快及过冲。
-   一般而言快速反应的PID应该会有轻微的过冲，只是有些系统不允许过冲。因此需要将回授系统
-   调整为过阻尼系统，而 {\displaystyle K_{p}} K_{p}比造成震荡 {\displaystyle K_{p}}
-   K_{p}的一半还要小很多。
-![人工调参](https://upload.wikimedia.org/wikipedia/commons/3/33/PID_Compensation_A
-nimated.gif)
+  若需在系统仍有负载的情形进行调试（线上调试），有一种作法是先将$K_i$及$K_d$设为零，增
+  加$K_p$一直到回路输出震荡为止，之后再将$K_p$设定为“1/4振幅衰减”（使系统第二次过冲量
+  是第一次的1/4）增益的一半，然后增加$K_i$直到一定时间后的稳态误差可被修正为止。不过若
+  $K_i$可能会造成不稳定，最后若有需要，可以增加$K_d$，并确认在负载变动后回路可以够快的
+  回到其设定值，不过若$K_d$太大会造成响应太快及过冲。一般而言快速反应的PID应该会有轻微
+  的过冲，只是有些系统不允许过冲。因此需要将回授系统调整为过阻尼系统，而$K_p$比造成震荡
+   $K_p$的一半还要小很多。
+![人工调参](https://upload.wikimedia.org/wikipedia/commons/3/33/PID_Compensation_Animated.gif)
 
 
 # 更多
@@ -66,5 +62,5 @@ PID控制器若再配合前馈控制（开回路控制），可以再提升其�
 出和目标的差异去增加或是减少输出。这类有前馈控制的PID控制器可以加快控制系统的反应速度。
 
 # 参考
-+ [PID控制器](https://zh.wikipedia.org/wiki/PID%E6%8E%A7%E5%88%B6%E5%99%A8)
++ [PID控制器--维基百科](https://zh.wikipedia.org/wiki/PID%E6%8E%A7%E5%88%B6%E5%99%A8)
 + http://bbs.elecfans.com/jishu_484125_1_1.html

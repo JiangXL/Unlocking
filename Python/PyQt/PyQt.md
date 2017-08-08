@@ -1,3 +1,7 @@
+[PyQt5 tutorial](http://zetcode.com/gui/pyqt5/)
+
+[PyQt5 Color](https://pythonspot.com/en/pyqt5-colors/)
+
 http://caimaoy.com/pyqt_create_a_new_window.html
 https://www.bbsmax.com/A/A2dmMvmbde/
 https://www.bbsmax.com/A/D854V316zE/

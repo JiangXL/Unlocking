@@ -25,3 +25,5 @@ QtGui
 
 [PyQt5中的事件和信号
 ](http://www.cnblogs.com/archisama/p/5454200.html)
+
+[PyQt5 Demo](https://github.com/baoboa/pyqt5)

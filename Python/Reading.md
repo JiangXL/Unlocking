@@ -7,3 +7,7 @@
 [Hitchhiker's Guide to Python](https://github.com/kennethreitz/python-guide)
 
 [📗 The Beauty of Python Programming.](http://funhacks.net/explore-python/)
+
+[Python parameter](http://www.cnblogs.com/kaituorensheng/archive/2013/01/06/2847962.html)
+
+[Python work with shell](http://zhou123.blog.51cto.com/4355617/1312791)

@@ -1,4 +1,4 @@
-import sys
+ import sys
 from PyQt4 import QtGui
 import pygame,sys
 from pygame.locals import*

@@ -4,6 +4,6 @@
 
 [时间戳转换](http://liyangliang.me/posts/2012/10/python-timestamp-to-timestr/)
 
-[Hitchhiker's Guide to Python](https://github.com/kennethreitz/python-guide)
+[python项目免坑指南](http://ningning.today/2016/08/20/python/fuck-python/)
 
-[📗 The Beauty of Python Programming.](http://funhacks.net/explore-python/)
+[Python 多进程](http://www.cnblogs.com/kaituorensheng/p/4445418.html)

@@ -10,3 +10,7 @@ while [ $a -lt 458 ] ;
 	mv RGECO-CoChR_LT_555_KClt${`echo | awk '{printf("%03d",a)}'`}c1.tif RGECO-CoChR_LT_555_KClt${replace}c1.tif;
 	let a=$a+1 ;
 done;
+
+
+#-----------------------=
+date '+%s'  #获取当前的时间戳

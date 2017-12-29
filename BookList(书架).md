@@ -18,3 +18,5 @@ http://inventwithpython.com/pygame/chapter3.html
 [《Think Python 2e》](http://codingpy.com/books/thinkpython2/index.html)
 
 [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/)
+
+[《编程之法：面试和算法心得》]https://www.gitbook.com/book/wizardforcel/the-art-of-programming-by-july/details

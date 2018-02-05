@@ -527,7 +527,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5A6E60BF)
-F (../Src/stm32f4xx_it.c)(0x5A77098B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\stm32f4xx_it.o --omf_browse led\stm32f4xx_it.crf --depend led\stm32f4xx_it.d)
+F (../Src/stm32f4xx_it.c)(0x5A780CD9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\stm32f4xx_it.o --omf_browse led\stm32f4xx_it.crf --depend led\stm32f4xx_it.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5A6E60BF)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5A77098B)
 I (../Inc/main.h)(0x5A77098B)
@@ -574,7 +574,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5A6E60C9)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5A6E60C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5A6E60C9)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A6E60C8)
-F (../Src/main.c)(0x5A77FE3C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\main.o --omf_browse led\main.crf --depend led\main.d)
+F (../Src/main.c)(0x5A780D42)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\main.o --omf_browse led\main.crf --depend led\main.d)
 I (../Inc/main.h)(0x5A77098B)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5A6E60BF)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5A77098B)
@@ -621,7 +621,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5A6E60C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5A6E60C9)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A6E60C8)
 I (../Inc/dma.h)(0x5A77098A)
-I (../Inc/usart.h)(0x5A7724E7)
+I (../Inc/usart.h)(0x5A780F90)
 I (../Inc/gpio.h)(0x5A770989)
 F (../Src/stm32f4xx_hal_timebase_TIM.c)(0x5A77098B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\stm32f4xx_hal_timebase_tim.o --omf_browse led\stm32f4xx_hal_timebase_tim.crf --depend led\stm32f4xx_hal_timebase_tim.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5A6E60BF)
@@ -654,7 +654,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5A6E60BF)
-F (../Src/freertos.c)(0x5A77FE37)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\freertos.o --omf_browse led\freertos.crf --depend led\freertos.d)
+F (../Src/freertos.c)(0x5A7820AE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\freertos.o --omf_browse led\freertos.crf --depend led\freertos.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A6E60C8)
 I (D:\Keil\ARM\ARMCC\include\stddef.h)(0x588B8344)
 I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x588B8344)
@@ -701,7 +701,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5A6E60BF)
-I (../Inc/usart.h)(0x5A7724E7)
+I (../Inc/usart.h)(0x5A780F90)
 I (../Inc/gpio.h)(0x5A770989)
 F (../Src/gpio.c)(0x5A770989)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\gpio.o --omf_browse led\gpio.crf --depend led\gpio.d)
 I (../Inc/gpio.h)(0x5A770989)
@@ -767,8 +767,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5A6E60BF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5A6E60BF)
-F (../Src/usart.c)(0x5A772529)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\usart.o --omf_browse led\usart.crf --depend led\usart.d)
-I (../Inc/usart.h)(0x5A7724E7)
+F (../Src/usart.c)(0x5A780CB8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS-I.\RTE\_LED-ID:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F427xx -DUSE_HAL_DRIVER -DSTM32F427xx-o led\usart.o --omf_browse led\usart.crf --depend led\usart.d)
+I (../Inc/usart.h)(0x5A780F90)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5A6E60BF)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5A77098B)
 I (../Inc/main.h)(0x5A77098B)

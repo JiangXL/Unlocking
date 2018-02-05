@@ -74,16 +74,39 @@ void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /* USER CODE BEGIN FunctionPrototypes */
 void led_task(void const *argu){
-	while(1){
-	HAL_GPIO_TogglePin(GPIOE,GPIO_PIN_7);
-	vTaskDelay(1000);
-	HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_14);
-	vTaskDelay(1000);
+	
+	
+		uint8_t txData[] = {"Hello World\n"};
+		uint8_t rxData ='F';
+		
+		if(HAL_UART_Receive_DMA(&huart6, (uint8_t *)rxData, sizeof(rxData)-1) != HAL_OK)//main函数while(1)前，启动一次DMA接收
+			{
+        Error_Handler();
+			}
+		
+		while(1){
+		HAL_GPIO_TogglePin(GPIOE,GPIO_PIN_7);
+		//vTaskDelay(1000);
+		HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_14);
+		
+		//vTaskDelay(1000);
+	
+		HAL_UART_Receive(&huart6, (uint8_t*)&rxData,1,1000);
+		//vTaskDelay(1000);
+		//txData[]=rxData[];
+		HAL_UART_Transmit_DMA(&huart6, &rxData, sizeof(rxData)-1);
+		vTaskDelay(500);
+
+	//Beepzer	
 	//HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_SET);
 	//HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_4);
 	//vTaskDelay(1000);
+		
 	}
+
 }
+
+
 /* USER CODE END FunctionPrototypes */
 
 /* Hook prototypes */

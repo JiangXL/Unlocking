@@ -64,18 +64,6 @@
 extern UART_HandleTypeDef huart6;
 
 /* USER CODE BEGIN Private defines */
-#define RECEIVELEN 1024
-#define USART_DMA_SENDING 1 //发送完成
-#define USART_DMA_SENDOVER 0 //发送完成
-typedef struct
-{
-	uint8_t receive_flag:1; //空闲接收标记
-	uint8_t dmaSend_flag:1;  //发送完成标记
-	uint16_t rx_len;//接收长度
-	uint8_t usartDMA_rxBuf[RECEIVELEN];//DMA接收缓存
-}USART_RECEIVETYPE;
-
-extern USART_RECEIVETYPE UsartType1;
 	 
 /* USER CODE END Private defines */
 

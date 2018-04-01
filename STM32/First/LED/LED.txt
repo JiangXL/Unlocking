@@ -1,0 +1,48 @@
+Configuration	LED
+STM32CubeMX 	4.24.0
+Date	02/04/2018
+MCU	STM32F427IIHx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	TIM1	SYS_VS_tim1	VP_SYS_VS_tim1
+USART6	Multiprocessor Communication	USART6_RX	PG9
+USART6	Multiprocessor Communication	USART6_TX	PG14
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+A7	PG14	USART6_TX	
+A9	PB4	GPIO_Output	
+C10	PG9	USART6_RX	
+R7	PF14	GPIO_Output	
+R8	PE7	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : LED
+Project Folder : F:\Unlocking\STM32\First\LED
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F4 V1.19.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

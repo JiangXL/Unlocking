@@ -1,7 +1,7 @@
 http://www.viseator.com/2017/07/02/arch_more/
 http://www.viseator.com/2017/05/19/arch_setup/
 http://www.viseator.com/2017/05/17/arch_install/
-[Usage of AUR](   )  
+[Usage of AUR](   )
 
 1. timedatectl set-ntp true
 2. mkfs.ext4 /dev/
@@ -38,7 +38,7 @@ sudo pacman -S gonme all
 
 -----
 20171223
-refind-install --usedefault /dev/sdXY --alldriver
+refind-install --usedefault /dev/sdXY --alldrivers
 
 # References
 [LVM setting]https://wiki.archlinux.org/index.php/LVM#Installing_Arch_Linux_on_LVM)
@@ -48,3 +48,15 @@ https://askubuntu.com/questions/26886/fixing-unbootable-installation-on-lvm-root
 https://unix.stackexchange.com/questions/105389/arch-grub-asking-for-run-lvm-lvmetad-socket-on-a-non-lvm-disk
 
 https://wiki.archlinux.org/index.php/REFInd
+
+
+---
+20180401
+卡死在
+``` bash
+[] A start job is running for Hold until boot process finishers up(22s/no limit)
+```
+Solve:
+``` bash
+sudo pacman -R plymouth
+```

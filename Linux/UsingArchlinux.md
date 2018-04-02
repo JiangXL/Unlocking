@@ -60,3 +60,13 @@ Solve:
 ``` bash
 sudo pacman -R plymouth
 ```
+
+----
+20180402
+Set VNC Server, just edit ~/.vnc/xstartup as following:
+``` bash
+#!/bin/sh
+export XKL_XMODMAP_DISABLE=1
+exec i3
+
+```

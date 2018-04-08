@@ -70,3 +70,14 @@ export XKL_XMODMAP_DISABLE=1
 exec i3
 
 ```
+
+
+----
+20180408
+solve the problem: lvm partions cannot by mount auto
+``` bash
+# /etc/mkinitcpio.conf
+#HOOKS="base udev autodetect modconf block sd-lvm2 filesystems keyboard fsck"
+HOOKS="base udev autodetect modconf block lvm2 filesystems keyboard fsck"
+# sd-lvm2--> lvm2
+``` bash

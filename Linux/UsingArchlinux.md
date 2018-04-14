@@ -81,3 +81,13 @@ solve the problem: lvm partions cannot by mount auto
 HOOKS="base udev autodetect modconf block lvm2 filesystems keyboard fsck"
 # sd-lvm2--> lvm2
 ``` bash
+
+
+----
+20180414
+``` bash
+# pacman -S $(pacman -Qq --dbpath /newarch/var/lib/pacman) --root /newarch --dbpath /newarch/var/lib/pacman
+```
+https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#Recovering_a_USB_key_from_existing_install
+https://unix.stackexchange.com/questions/355689/manjaro-fails-to-boot-modules-devname-not-found-then-unknown-disk-uuid-error
+https://www.soimort.org/notes/170407/

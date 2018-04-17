@@ -91,3 +91,8 @@ HOOKS="base udev autodetect modconf block lvm2 filesystems keyboard fsck"
 https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#Recovering_a_USB_key_from_existing_install
 https://unix.stackexchange.com/questions/355689/manjaro-fails-to-boot-modules-devname-not-found-then-unknown-disk-uuid-error
 https://www.soimort.org/notes/170407/
+
+When many modules can't be found during mkinitcpio.
+So I copy all files and folder in /lib/modules/ of another arch to
+broken arch.
+Then work!

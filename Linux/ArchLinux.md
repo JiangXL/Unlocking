@@ -96,3 +96,19 @@ When many modules can't be found during mkinitcpio.
 So I copy all files and folder in /lib/modules/ of another arch to
 broken arch.
 Then work!
+
+-------
+20180520
+Q: Screen, keyboard and mouse are freezd after install nvidia driver
+instead of noveaou. I try many method about nvidia driver in Internet,
+but no one work.
+A: It maybe the problem of Xorg during start. So I remove gdm and 
+start gnome-session by xinit. Then so far so well. :)
+``` bash
+sudo pacman -R gdm
+vim .xinitrc
+exec gnome-session
+
+```
+
+

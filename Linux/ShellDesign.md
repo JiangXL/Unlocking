@@ -5,6 +5,10 @@
   > arthur@aguo-laptop:~> printf "%s \n" $var
 变量不可以如此输出，因为printf命令的ARGUMENT认字符串。
 
+``` bash
+> #覆盖写入
+>> #增量写入
+```
 # 控制
  + 赋值: let
  + 取反： ！

@@ -111,4 +111,16 @@ exec gnome-session
 
 ```
 
-
+---------
+20180521
+Q: During update, system lost power. Then,
+``` bash
+[root@surface hf]# pacman -S --force linux
+resolving dependencies...
+looking for conflicting packages...
+warning: could not fully load metadata for package linux-4.15.15-1
+error: failed to prepare transaction (invalid or corrupted package)
+```
+A: I install the linux-lts, and find the files on /var/lib/pacman/local/linux../
+Then I copy these files to linux folder from linx-lts folder.
+https://bbs.archlinux.org/viewtopic.php?id=230357

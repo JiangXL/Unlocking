@@ -124,3 +124,8 @@ error: failed to prepare transaction (invalid or corrupted package)
 A: I install the linux-lts, and find the files on /var/lib/pacman/local/linux../
 Then I copy these files to linux folder from linx-lts folder.
 https://bbs.archlinux.org/viewtopic.php?id=230357
+
+--------
+20180528
+Q: startx don't work, the log show err "[   520.688] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)"
+A:

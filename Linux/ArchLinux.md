@@ -129,3 +129,38 @@ https://bbs.archlinux.org/viewtopic.php?id=230357
 20180528
 Q: startx don't work, the log show err "[   520.688] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)"
 A:
+
+--------
+
+Q:[125363.149] (II) NVIDIA dlloader X Driver  396.24  Wed Apr 25 22:53:34 PDT 2018
+[125363.149] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+A: reinstall nvidia driver
+
+Q: 
+```
+user@host ~ » pip
+Traceback (most recent call last):
+  File "/usr/bin/pip", line 11, in <module>
+    load_entry_point('pip==10.0.1', 'console_scripts', 'pip')()
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 476, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2700, in load_entry_point
+    return ep.load()
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2318, in load
+    return self.resolve()
+  File "/usr/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2324, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/usr/lib/python3.6/site-packages/pip/_internal/__init__.py", line 42, in <module>
+    from pip._internal import cmdoptions
+  File "/usr/lib/python3.6/site-packages/pip/_internal/cmdoptions.py", line 16, in <module>
+    from pip._internal.index import (
+  File "/usr/lib/python3.6/site-packages/pip/_internal/index.py", line 20, in <module>
+    from pip._vendor.requests.exceptions import SSLError
+ModuleNotFoundError: No module named 'pip._vendor.requests.exceptions'
+```
+
+A:sudo rm -rf /usr/lib/python3.6/site-packages/pip /usr/lib/python3.6/site-packages/pkg_resources
+sudo pacman -S python-setuptools python-pip
+
+https://bbs.archlinux.org/viewtopic.php?id=237451
+
